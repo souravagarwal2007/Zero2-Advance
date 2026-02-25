@@ -5,18 +5,18 @@ from logging.handlers import RotatingFileHandler
 
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "@Im_Sukuna02")
-APP_ID = int(os.environ.get("APP_ID", "@Im_Sukuna02")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "@Im_Sukuna02") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7751221792:AAFLPCQNeu11tCjk6QpEpk4ak9CxJjD33dc")
+APP_ID = int(os.environ.get("APP_ID", "21223629")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "920eaaf96c0ed560371add171ff0e573") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "@Im_Sukuna02")) #Your db channel Id 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003831316477")) #Your db channel Id 
 OWNER = os.environ.get("OWNER", "Im_Sukuna02") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "@Im_Sukuna02")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://souravagarwal14092007:szXRs8g7fErCnn4@cluster0.xlsbf3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Im_Sukuna02")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
@@ -27,7 +27,7 @@ START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/7d5ng3jr/photo-2025-05
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/7d5ng3jr/photo-2025-05-17-09-26-38-7505343723559976972.jpg")
 #--------------------------------------------
 #--------------------------------------------
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "@Im_Sukuna02")  # Default Shortlink API
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "573350da0e10a5a44f7e6fec3bc2b3f836b47805")  # Default Shortlink API
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")  # Default Shortlink URL
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
@@ -35,13 +35,6 @@ SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/7d5ng3jr/photo
 
 #--------------------------------------------
 TUT_VID = os.environ.get("SHORTLINK_API", "https://t.me/Infinitx_Tutorial/22")
-
-#--------------------------------------------
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "@Im_Sukuna02")  # Default Shortlink API
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")  # Default Shortlink URL
-SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
-
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/7d5ng3jr/photo-2025-05-17-09-26-38-7505343723559976972.jpg")
 
 #--------------------------------------------
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @InFinity_Adult\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</blockquote></b>"

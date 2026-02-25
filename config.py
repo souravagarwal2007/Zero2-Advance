@@ -12,12 +12,12 @@ API_HASH = os.environ.get("API_HASH", "920eaaf96c0ed560371add171ff0e573") #Your 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003831316477")) #Your db channel Id 
 OWNER = os.environ.get("OWNER", "Im_Sukuna02") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "@Im_Sukuna02")) # Owner id
+OWNER_ID = int(os.environ.get("OWNER_ID", "6123108288")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://souravagarwal14092007:szXRs8g7fErCnn4@cluster0.xlsbf3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Im_Sukuna02")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "@Im_Sukuna02")
